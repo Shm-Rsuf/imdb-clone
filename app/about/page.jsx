@@ -6,9 +6,7 @@ const AboutPage = () => {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, modi
         voluptatibus laudantium accusantium libero accusamus sapiente
         perspiciatis ullam ipsum impedit qui temporibus dolor nisi deserunt
-        dolorum, veniam ducimus vero voluptate molestiae. Voluptates similique
-        omnis amet, architecto tenetur sit, nobis itaque expedita sed ipsam,
-        quis explicabo aliquid. Ullam ipsum adipisci doloribus?
+        dolorum, veniam ducimus vero voluptate molestiae.
       </p>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
