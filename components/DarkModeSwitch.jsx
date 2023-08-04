@@ -13,17 +13,18 @@ const DarkModeSwitch = () => {
 
   return (
     <>
-      {mounted && currentTheme === "dark" ? (
-        <MdLightMode
-          className="text-xl cursor-pointer hover:text-amber-500 duration-300"
-          onClick={() => setTheme("light")}
-        />
-      ) : (
-        <FaMoon
-          className="text-xl cursor-pointer hover:text-amber-500 duration-300"
-          onClick={() => setTheme("dark")}
-        />
-      )}
+      {mounted &&
+        (currentTheme === "dark" ? (
+          <MdLightMode
+            className="text-xl cursor-pointer hover:text-amber-500 duration-300"
+            onClick={() => setTheme("light")}
+          />
+        ) : (
+          <FaMoon
+            className="text-xl cursor-pointer hover:text-amber-500 duration-300"
+            onClick={() => setTheme("dark")}
+          />
+        ))}
     </>
   );
 };
