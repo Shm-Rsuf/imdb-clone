@@ -1,6 +1,6 @@
 const AboutPage = () => {
   return (
-    <section className="wrapper space-y-5">
+    <section className="wrapper space-y-5 py-10">
       <h2 className="text-2xl font-medium text-amber-500">About</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, modi
