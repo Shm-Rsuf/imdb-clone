@@ -3,7 +3,6 @@ import Link from "next/link";
 import { BsHandThumbsUp } from "react-icons/bs";
 
 const Card = ({ result }) => {
-  console.log(result);
   return (
     <div className="p-2 my-5 cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-300 group">
       <Link href={`/movie/${result.id}`}>
