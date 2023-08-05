@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scrollbar-width: none;
+}
+
 .wrapper {
   @apply container mx-auto px-5;
 }
