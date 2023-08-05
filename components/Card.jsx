@@ -4,7 +4,7 @@ import { BsHandThumbsUp } from "react-icons/bs";
 
 const Card = ({ result }) => {
   return (
-    <div className="p-2 my-5 cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-300 group">
+    <div className="p-2 my-5 border border-slate-400 cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-300 group">
       <Link href={`/movie/${result.id}`}>
         <Image
           src={`https://image.tmdb.org/t/p/original/${
