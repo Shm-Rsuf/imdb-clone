@@ -26,7 +26,7 @@ const SearchBox = () => {
           value={inputText}
           required
           type="text"
-          placeholder="Search keywords.."
+          placeholder="Search keywords..."
           className="w-[85%] px-2 h-12 rounded-md bg-transparent outline-none placeholder:gray-500 border rounded-r-none dark:border-gray-600"
         />
         <button
@@ -34,7 +34,7 @@ const SearchBox = () => {
           type="submit"
           className="text-amber-500 disabled:text-amber-400 p-2 w-[15%] h-12 border border-l-0 dark:border-gray-600 rounded-md rounded-l-none flex justify-center items-center"
         >
-          <FiSearch className="text-2xl md:text-3xl" />
+          <FiSearch className="text-2xl md:text-3xl cursor-pointer" />
         </button>
       </form>
     </section>
