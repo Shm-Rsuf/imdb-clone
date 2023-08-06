@@ -10,7 +10,6 @@ const MoviePage = async ({ params }) => {
     throw new Error("Fetch to failed movie");
   }
   const movie = await res.json();
-  console.log("movie=", movie);
 
   return (
     <section className="w-full mt-10">
