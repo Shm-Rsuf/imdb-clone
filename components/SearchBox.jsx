@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { FiSearch } from "react-icons/fi";
 
 const SearchBox = () => {
   const [inputText, setInputText] = useState("");
@@ -18,7 +19,7 @@ const SearchBox = () => {
     <section className="">
       <form
         onSubmit={handleInputSubmit}
-        className="wrapper flex justify-between items-center py-4 gap-2"
+        className="wrapper flex justify-between items-center py-4"
       >
         <input
           onChange={(e) => setInputText(e.target.value)}
@@ -26,14 +27,14 @@ const SearchBox = () => {
           required
           type="text"
           placeholder="Search keywords.."
-          className="w-full px-2 h-14 rounded-md bg-transparent outline-none placeholder:gray-500 flex-1 border dark:border-gray-600"
+          className="w-[85%] px-2 h-12 rounded-md bg-transparent outline-none placeholder:gray-500 border rounded-r-none dark:border-gray-600"
         />
         <button
           disabled={!inputText}
           type="submit"
-          className="text-amber-500 disabled:text-amber-400"
+          className="text-amber-500 disabled:text-amber-400 p-2 w-[15%] h-12 border border-l-0 dark:border-gray-600 rounded-md rounded-l-none flex justify-center items-center"
         >
-          Search
+          <FiSearch className="text-2xl md:text-3xl" />
         </button>
       </form>
     </section>
