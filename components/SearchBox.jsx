@@ -27,12 +27,12 @@ const SearchBox = () => {
           required
           type="text"
           placeholder="Search keywords..."
-          className="w-[85%] px-2 h-12 rounded-md bg-transparent outline-none placeholder:gray-500 border rounded-r-none dark:border-gray-600"
+          className="w-[90%] px-2 h-12 rounded-full bg-transparent outline-none placeholder:gray-500 border rounded-r-none dark:border-gray-600"
         />
         <button
           disabled={!inputText}
           type="submit"
-          className="text-amber-500 disabled:text-amber-400 p-2 w-[15%] h-12 border border-l-0 dark:border-gray-600 rounded-md rounded-l-none flex justify-center items-center"
+          className="text-amber-500 disabled:text-amber-400 p-2 w-[15%] sm:w-[10%] h-12 border border-l-0 dark:border-gray-600 rounded-full rounded-l-none flex justify-center items-center"
         >
           <FiSearch className="text-2xl md:text-3xl cursor-pointer" />
         </button>
